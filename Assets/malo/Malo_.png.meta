@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: d9c56b882639cd64f8a8115e5f142f46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -371052054665127873
+    second: Malo__0
+  - first:
+      213: -1661410076532802585
+    second: Malo__1
+  - first:
+      213: 3933779837987493901
+    second: Malo__2
+  - first:
+      213: 5742735323128227530
+    second: Malo__3
+  - first:
+      213: -1567674765128299986
+    second: Malo__4
+  - first:
+      213: -8750678917100755052
+    second: Malo__5
+  - first:
+      213: 701423057340400618
+    second: Malo__6
+  - first:
+      213: -8731857501113211054
+    second: Malo__7
+  - first:
+      213: 1652001179133806002
+    second: Malo__8
+  - first:
+      213: 1017092226383370178
+    second: Malo__9
+  - first:
+      213: -5340207595446795998
+    second: Malo__10
+  - first:
+      213: 1019538969785394462
+    second: Malo__11
+  - first:
+      213: -9035179624143364754
+    second: Malo__12
+  - first:
+      213: -377919734438956218
+    second: Malo__13
+  - first:
+      213: 3493240206726473723
+    second: Malo__14
+  - first:
+      213: 6301832878479325713
+    second: Malo__15
+  - first:
+      213: 4603825323790830681
+    second: Malo__16
+  - first:
+      213: -1335517825246174794
+    second: Malo__17
+  - first:
+      213: 1267918258322229746
+    second: Malo__18
+  - first:
+      213: 5755743497988274770
+    second: Malo__19
+  - first:
+      213: 5230162761519506766
+    second: Malo__20
+  - first:
+      213: 3017692200280805025
+    second: Malo__21
+  - first:
+      213: 230453868115326271
+    second: Malo__22
+  - first:
+      213: 4227469350906590324
+    second: Malo__23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Malo__0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 737
+        width: 147
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3891884f12c9daf0800000000000000
+      internalID: -371052054665127873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 737
+        width: 162
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebf102865c71f8e0800000000000000
+      internalID: -1661410076532802585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 737
+        width: 174
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0896dbabe7979630800000000000000
+      internalID: 3933779837987493901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 737
+        width: 176
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6652e995b42bf40800000000000000
+      internalID: 5742735323128227530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__4
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 737
+        width: 180
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a0f256b108e3ae0800000000000000
+      internalID: -1567674765128299986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__5
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 738
+        width: 170
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497a5b253e75f8680800000000000000
+      internalID: -8750678917100755052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 738
+        width: 168
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae30b0aed84fbb900800000000000000
+      internalID: 701423057340400618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__7
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 738
+        width: 161
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25721d8bdd532d680800000000000000
+      internalID: -8731857501113211054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__8
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 736
+        width: 147
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b50ccad1561de610800000000000000
+      internalID: 1652001179133806002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 405
+        width: 173
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c75469bdff6d1e00800000000000000
+      internalID: 1017092226383370178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 405
+        width: 160
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2210d8e4c75c3e5b0800000000000000
+      internalID: -5340207595446795998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 405
+        width: 173
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e9b09a41262e00800000000000000
+      internalID: 1019538969785394462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 406
+        width: 186
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d561590089c9280800000000000000
+      internalID: -9035179624143364754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__13
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 405
+        width: 184
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643f72bf00c51caf0800000000000000
+      internalID: -377919734438956218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 405
+        width: 181
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf72b05c57b7a7030800000000000000
+      internalID: 3493240206726473723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__15
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 405
+        width: 179
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a33ab4d9b947750800000000000000
+      internalID: 6301832878479325713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__16
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 405
+        width: 173
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c00886db214ef30800000000000000
+      internalID: 4603825323790830681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__17
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 405
+        width: 155
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1eff22d99477de0800000000000000
+      internalID: -1335517825246174794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 47
+        width: 126
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9478f20fc889110800000000000000
+      internalID: 1267918258322229746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 47
+        width: 125
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25afad7573280ef40800000000000000
+      internalID: 5755743497988274770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__20
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 53
+        width: 134
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45a8dd2255459840800000000000000
+      internalID: 5230162761519506766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__21
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 80
+        width: 120
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae4437511ff0e920800000000000000
+      internalID: 3017692200280805025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__22
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 46
+        width: 128
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35f022729cb23300800000000000000
+      internalID: 230453868115326271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malo__23
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 46
+        width: 123
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47473aff9fcfaaa30800000000000000
+      internalID: 4227469350906590324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Malo__0: -371052054665127873
+      Malo__1: -1661410076532802585
+      Malo__10: -5340207595446795998
+      Malo__11: 1019538969785394462
+      Malo__12: -9035179624143364754
+      Malo__13: -377919734438956218
+      Malo__14: 3493240206726473723
+      Malo__15: 6301832878479325713
+      Malo__16: 4603825323790830681
+      Malo__17: -1335517825246174794
+      Malo__18: 1267918258322229746
+      Malo__19: 5755743497988274770
+      Malo__2: 3933779837987493901
+      Malo__20: 5230162761519506766
+      Malo__21: 3017692200280805025
+      Malo__22: 230453868115326271
+      Malo__23: 4227469350906590324
+      Malo__3: 5742735323128227530
+      Malo__4: -1567674765128299986
+      Malo__5: -8750678917100755052
+      Malo__6: 701423057340400618
+      Malo__7: -8731857501113211054
+      Malo__8: 1652001179133806002
+      Malo__9: 1017092226383370178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
