@@ -129,9 +129,9 @@ GameObject:
   m_Component:
   - component: {fileID: 37741202}
   - component: {fileID: 37741203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,9 +207,9 @@ GameObject:
   m_Component:
   - component: {fileID: 55103953}
   - component: {fileID: 55103954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 31
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,9 +285,9 @@ GameObject:
   m_Component:
   - component: {fileID: 55245720}
   - component: {fileID: 55245721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 57
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -363,9 +363,9 @@ GameObject:
   m_Component:
   - component: {fileID: 77661195}
   - component: {fileID: 77661196}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 13
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,9 +441,9 @@ GameObject:
   m_Component:
   - component: {fileID: 101773295}
   - component: {fileID: 101773296}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 5
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,9 +519,9 @@ GameObject:
   m_Component:
   - component: {fileID: 102177253}
   - component: {fileID: 102177254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 66
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -597,6 +597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 121529365}
   - component: {fileID: 121529366}
+  - component: {fileID: 121529367}
   m_Layer: 0
   m_Name: 13
   m_TagString: Untagged
@@ -665,6 +666,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &121529367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121529364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &132144463
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,9 +689,9 @@ GameObject:
   m_Component:
   - component: {fileID: 132144464}
   - component: {fileID: 132144465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 50
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,6 +767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141657688}
   - component: {fileID: 141657689}
+  - component: {fileID: 141657690}
   m_Layer: 0
   m_Name: 6
   m_TagString: Untagged
@@ -821,6 +836,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &141657690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141657687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &173480913
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,9 +859,9 @@ GameObject:
   m_Component:
   - component: {fileID: 173480914}
   - component: {fileID: 173480915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 40
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -909,6 +937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175401341}
   - component: {fileID: 175401342}
+  - component: {fileID: 175401343}
   m_Layer: 0
   m_Name: 17
   m_TagString: Untagged
@@ -977,6 +1006,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &175401343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175401340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &221293868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,9 +1132,9 @@ GameObject:
   m_Component:
   - component: {fileID: 238167562}
   - component: {fileID: 238167563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 10
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1168,9 +1210,9 @@ GameObject:
   m_Component:
   - component: {fileID: 244743550}
   - component: {fileID: 244743551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 51
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1247,9 +1289,9 @@ GameObject:
   - component: {fileID: 252086028}
   - component: {fileID: 252086030}
   - component: {fileID: 252086029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3864,6 +3906,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 66, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 71, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -5760,7 +5812,7 @@ Tilemap:
     m_RefCount: 305
     m_Data: {fileID: 11400000, guid: 23c86244b3ad40245ac683b86b463b07, type: 2}
   - serializedVersion: 2
-    m_RefCount: 136
+    m_RefCount: 137
     m_Data: {fileID: 11400000, guid: 5d33a58868130794dab403e49e27d312, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
@@ -5776,7 +5828,7 @@ Tilemap:
     m_RefCount: 305
     m_Data: {fileID: 8744573965347824784, guid: d527cf71cf03a734fb711c30860f2173, type: 3}
   - serializedVersion: 2
-    m_RefCount: 136
+    m_RefCount: 137
     m_Data: {fileID: 7584875828100514122, guid: d527cf71cf03a734fb711c30860f2173, type: 3}
   - serializedVersion: 2
     m_RefCount: 0
@@ -5827,7 +5879,7 @@ Tilemap:
       e32: 0
       e33: 1
   - serializedVersion: 2
-    m_RefCount: 226
+    m_RefCount: 227
     m_Data:
       e00: 1
       e01: 0
@@ -5866,7 +5918,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
-    m_RefCount: 442
+    m_RefCount: 443
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -5902,9 +5954,9 @@ GameObject:
   m_Component:
   - component: {fileID: 259514924}
   - component: {fileID: 259514925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 75
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5980,9 +6032,9 @@ GameObject:
   m_Component:
   - component: {fileID: 261578177}
   - component: {fileID: 261578178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6058,9 +6110,9 @@ GameObject:
   m_Component:
   - component: {fileID: 298687787}
   - component: {fileID: 298687788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 70
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6136,6 +6188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322540440}
   - component: {fileID: 322540441}
+  - component: {fileID: 322540442}
   m_Layer: 0
   m_Name: 16
   m_TagString: Untagged
@@ -6204,6 +6257,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &322540442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322540439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &332252287
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,9 +6280,9 @@ GameObject:
   m_Component:
   - component: {fileID: 332252288}
   - component: {fileID: 332252289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 17
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6292,9 +6358,9 @@ GameObject:
   m_Component:
   - component: {fileID: 365969373}
   - component: {fileID: 365969374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 30
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6370,9 +6436,9 @@ GameObject:
   m_Component:
   - component: {fileID: 386514447}
   - component: {fileID: 386514448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '16 '
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6447,9 +6513,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 392117448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: colaiders de mapa
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6556,9 +6622,9 @@ GameObject:
   m_Component:
   - component: {fileID: 433896945}
   - component: {fileID: 433896946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 36
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6634,9 +6700,9 @@ GameObject:
   m_Component:
   - component: {fileID: 439445273}
   - component: {fileID: 439445274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 56
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6712,6 +6778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 451476044}
   - component: {fileID: 451476045}
+  - component: {fileID: 451476046}
   m_Layer: 0
   m_Name: 5
   m_TagString: Untagged
@@ -6780,6 +6847,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &451476046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451476043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &471752712
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,9 +6870,9 @@ GameObject:
   m_Component:
   - component: {fileID: 471752713}
   - component: {fileID: 471752714}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 12
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6868,9 +6948,9 @@ GameObject:
   m_Component:
   - component: {fileID: 477304921}
   - component: {fileID: 477304922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 15
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6946,9 +7026,9 @@ GameObject:
   m_Component:
   - component: {fileID: 487318447}
   - component: {fileID: 487318448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 43
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7190,6 +7270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542251183}
   - component: {fileID: 542251184}
+  - component: {fileID: 542251185}
   m_Layer: 0
   m_Name: 10
   m_TagString: Untagged
@@ -7258,6 +7339,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &542251185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542251182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &566000382
 GameObject:
   m_ObjectHideFlags: 0
@@ -7268,9 +7362,9 @@ GameObject:
   m_Component:
   - component: {fileID: 566000383}
   - component: {fileID: 566000384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7346,9 +7440,9 @@ GameObject:
   m_Component:
   - component: {fileID: 616185431}
   - component: {fileID: 616185432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 38
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7508,9 +7602,9 @@ GameObject:
   m_Component:
   - component: {fileID: 620299662}
   - component: {fileID: 620299663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 42
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7586,9 +7680,9 @@ GameObject:
   m_Component:
   - component: {fileID: 627036955}
   - component: {fileID: 627036956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 74
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7664,9 +7758,9 @@ GameObject:
   m_Component:
   - component: {fileID: 627189399}
   - component: {fileID: 627189400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 59
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7742,9 +7836,9 @@ GameObject:
   m_Component:
   - component: {fileID: 632186031}
   - component: {fileID: 632186032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 58
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7810,6 +7904,98 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &648005217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 648005218}
+  - component: {fileID: 648005220}
+  - component: {fileID: 648005219}
+  m_Layer: 0
+  m_Name: 24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &648005218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648005217}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.6, y: -27.7, z: 0}
+  m_LocalScale: {x: 122.69937, y: 4.36801, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1761537813}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &648005219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648005217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 5
+--- !u!61 &648005220
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648005217}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &660961925
 GameObject:
   m_ObjectHideFlags: 0
@@ -7820,9 +8006,9 @@ GameObject:
   m_Component:
   - component: {fileID: 660961926}
   - component: {fileID: 660961927}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 45
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7898,9 +8084,9 @@ GameObject:
   m_Component:
   - component: {fileID: 675603142}
   - component: {fileID: 675603143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 41
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7976,9 +8162,9 @@ GameObject:
   m_Component:
   - component: {fileID: 696625313}
   - component: {fileID: 696625314}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8054,9 +8240,9 @@ GameObject:
   m_Component:
   - component: {fileID: 699354817}
   - component: {fileID: 699354818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 28
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8132,6 +8318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735172671}
   - component: {fileID: 735172672}
+  - component: {fileID: 735172673}
   m_Layer: 0
   m_Name: 8
   m_TagString: Untagged
@@ -8200,6 +8387,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &735172673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735172670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &736600782
 GameObject:
   m_ObjectHideFlags: 0
@@ -8210,9 +8410,9 @@ GameObject:
   m_Component:
   - component: {fileID: 736600783}
   - component: {fileID: 736600784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 37
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8288,9 +8488,9 @@ GameObject:
   m_Component:
   - component: {fileID: 739688089}
   - component: {fileID: 739688090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 60
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8366,9 +8566,9 @@ GameObject:
   m_Component:
   - component: {fileID: 743236860}
   - component: {fileID: 743236861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 53
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8444,9 +8644,9 @@ GameObject:
   m_Component:
   - component: {fileID: 772457118}
   - component: {fileID: 772457119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 22
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8522,9 +8722,9 @@ GameObject:
   m_Component:
   - component: {fileID: 774669490}
   - component: {fileID: 774669491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 33
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8600,6 +8800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782817077}
   - component: {fileID: 782817078}
+  - component: {fileID: 782817079}
   m_Layer: 0
   m_Name: 14
   m_TagString: Untagged
@@ -8668,6 +8869,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &782817079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782817076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &785626206
 GameObject:
   m_ObjectHideFlags: 0
@@ -8678,9 +8892,9 @@ GameObject:
   m_Component:
   - component: {fileID: 785626207}
   - component: {fileID: 785626208}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 55
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8756,6 +8970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808692018}
   - component: {fileID: 808692019}
+  - component: {fileID: 808692020}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -8824,6 +9039,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &808692020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808692017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &834740768
 GameObject:
   m_ObjectHideFlags: 0
@@ -8939,9 +9167,9 @@ GameObject:
   m_Component:
   - component: {fileID: 838800137}
   - component: {fileID: 838800138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 69
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9067,6 +9295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880071383}
   - component: {fileID: 880071384}
+  - component: {fileID: 880071385}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -9135,6 +9364,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &880071385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880071382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &945192603
 GameObject:
   m_ObjectHideFlags: 0
@@ -9145,6 +9387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945192604}
   - component: {fileID: 945192605}
+  - component: {fileID: 945192606}
   m_Layer: 0
   m_Name: 7
   m_TagString: Untagged
@@ -9213,6 +9456,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &945192606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945192603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &952873140
 GameObject:
   m_ObjectHideFlags: 0
@@ -9223,9 +9479,9 @@ GameObject:
   m_Component:
   - component: {fileID: 952873141}
   - component: {fileID: 952873142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 34
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9301,9 +9557,9 @@ GameObject:
   m_Component:
   - component: {fileID: 953025285}
   - component: {fileID: 953025286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 7
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9379,6 +9635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976570711}
   - component: {fileID: 976570712}
+  - component: {fileID: 976570713}
   m_Layer: 0
   m_Name: 15
   m_TagString: Untagged
@@ -9447,6 +9704,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &976570713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976570710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1027678138
 GameObject:
   m_ObjectHideFlags: 0
@@ -9503,9 +9773,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1028939726}
   - component: {fileID: 1028939727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 52
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9581,9 +9851,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1042108739}
   - component: {fileID: 1042108740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 25
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9659,6 +9929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063108865}
   - component: {fileID: 1063108866}
+  - component: {fileID: 1063108867}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -9727,6 +9998,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1063108867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063108864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1111827476
 GameObject:
   m_ObjectHideFlags: 0
@@ -9737,9 +10021,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1111827477}
   - component: {fileID: 1111827478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 8
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9920,6 +10204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185027650}
   - component: {fileID: 1185027651}
+  - component: {fileID: 1185027652}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -9988,6 +10273,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1185027652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185027649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 5
 --- !u!1 &1210808296
 GameObject:
   m_ObjectHideFlags: 0
@@ -9998,6 +10296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210808297}
   - component: {fileID: 1210808298}
+  - component: {fileID: 1210808299}
   m_Layer: 0
   m_Name: 11
   m_TagString: Untagged
@@ -10066,6 +10365,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1210808299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210808296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1216585638
 GameObject:
   m_ObjectHideFlags: 0
@@ -10076,9 +10388,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1216585639}
   - component: {fileID: 1216585640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 39
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10154,9 +10466,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1246838906}
   - component: {fileID: 1246838907}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 71
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10232,6 +10544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248214190}
   - component: {fileID: 1248214191}
+  - component: {fileID: 1248214192}
   m_Layer: 0
   m_Name: 21
   m_TagString: Untagged
@@ -10300,6 +10613,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1248214192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248214189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1279269492
 GameObject:
   m_ObjectHideFlags: 0
@@ -10310,9 +10636,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1279269493}
   - component: {fileID: 1279269494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 49
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10477,6 +10803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284055416}
   - component: {fileID: 1284055417}
+  - component: {fileID: 1284055418}
   m_Layer: 0
   m_Name: 22
   m_TagString: Untagged
@@ -10545,6 +10872,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1284055418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284055415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1299611586
 GameObject:
   m_ObjectHideFlags: 0
@@ -10555,9 +10895,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1299611587}
   - component: {fileID: 1299611588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 35
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10633,9 +10973,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1317935628}
   - component: {fileID: 1317935629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 4
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10711,9 +11051,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1337535870}
   - component: {fileID: 1337535871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 65
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10868,9 +11208,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1382260666}
   - component: {fileID: 1382260667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 32
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10946,9 +11286,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1408601607}
   - component: {fileID: 1408601608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 48
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11024,6 +11364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413006965}
   - component: {fileID: 1413006966}
+  - component: {fileID: 1413006967}
   m_Layer: 0
   m_Name: 9
   m_TagString: Untagged
@@ -11092,6 +11433,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1413006967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413006964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1431827104
 GameObject:
   m_ObjectHideFlags: 0
@@ -11102,9 +11456,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1431827105}
   - component: {fileID: 1431827106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 11
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11180,9 +11534,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1478444498}
   - component: {fileID: 1478444499}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 44
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11258,6 +11612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480915536}
   - component: {fileID: 1480915537}
+  - component: {fileID: 1480915538}
   m_Layer: 0
   m_Name: 12
   m_TagString: Untagged
@@ -11326,6 +11681,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1480915538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480915535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1507480946
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,9 +11704,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1507480947}
   - component: {fileID: 1507480948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 19
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11414,9 +11782,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1509556461}
   - component: {fileID: 1509556462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 63
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11492,9 +11860,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1511190565}
   - component: {fileID: 1511190566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 64
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11570,6 +11938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516902653}
   - component: {fileID: 1516902654}
+  - component: {fileID: 1516902655}
   m_Layer: 0
   m_Name: 23
   m_TagString: Untagged
@@ -11638,6 +12007,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1516902655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516902652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1538277491
 GameObject:
   m_ObjectHideFlags: 0
@@ -11753,9 +12135,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1583016611}
   - component: {fileID: 1583016612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 14
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11921,9 +12303,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1632166214}
   - component: {fileID: 1632166215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 61
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11999,9 +12381,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1644115952}
   - component: {fileID: 1644115953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12388,9 +12770,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1661660196}
   - component: {fileID: 1661660197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 2
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12466,9 +12848,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1722785418}
   - component: {fileID: 1722785419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 73
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12544,9 +12926,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1733492662}
   - component: {fileID: 1733492663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 23
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12622,9 +13004,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1738336783}
   - component: {fileID: 1738336784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 62
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12848,6 +13230,7 @@ Transform:
   - {fileID: 1248214190}
   - {fileID: 1284055416}
   - {fileID: 1516902653}
+  - {fileID: 648005218}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1761537814
@@ -12873,9 +13256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1767816514}
   - component: {fileID: 1767816515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 76
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12951,9 +13334,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1796586242}
   - component: {fileID: 1796586243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 29
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13029,9 +13412,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1807375933}
   - component: {fileID: 1807375934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 46
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13107,9 +13490,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1823267957}
   - component: {fileID: 1823267958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 27
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13185,9 +13568,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1838666000}
   - component: {fileID: 1838666001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13263,9 +13646,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1839076302}
   - component: {fileID: 1839076303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 6 pinchos
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13341,9 +13724,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1848994961}
   - component: {fileID: 1848994962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 47
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13419,6 +13802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896652965}
   - component: {fileID: 1896652966}
+  - component: {fileID: 1896652967}
   m_Layer: 0
   m_Name: 18
   m_TagString: Untagged
@@ -13487,6 +13871,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1896652967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896652964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &1899094672
 GameObject:
   m_ObjectHideFlags: 0
@@ -14787,6 +15184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955309020}
   - component: {fileID: 1955309021}
+  - component: {fileID: 1955309022}
   m_Layer: 0
   m_Name: 19
   m_TagString: Untagged
@@ -14855,6 +15253,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1955309022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955309019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1 &2004451534
 GameObject:
   m_ObjectHideFlags: 0
@@ -14865,9 +15276,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2004451535}
   - component: {fileID: 2004451536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 6
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14943,9 +15354,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2011978325}
   - component: {fileID: 2011978326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 68
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15021,9 +15432,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2022583871}
   - component: {fileID: 2022583872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15099,9 +15510,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2023108835}
   - component: {fileID: 2023108836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15177,9 +15588,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2047312809}
   - component: {fileID: 2047312810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 72
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15255,9 +15666,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2059997536}
   - component: {fileID: 2059997537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 21
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15333,9 +15744,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2112864411}
   - component: {fileID: 2112864412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 67
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15411,6 +15822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125266699}
   - component: {fileID: 2125266700}
+  - component: {fileID: 2125266701}
   m_Layer: 0
   m_Name: 20
   m_TagString: Untagged
@@ -15479,6 +15891,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2125266701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125266698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a805de2cc1f1134f90f29736f3d629a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Da\xF1o"
+  "da\xF1o": 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
