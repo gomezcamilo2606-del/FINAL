@@ -1,19 +1,29 @@
 using UnityEngine;
 
-public class CamaraSeguir : MonoBehaviour
+public class CamaraSeguir: MonoBehaviour
 {
-    public Transform jugador;   // Arrastra aquí el Player
+    public Transform jugador;
     public float suavizado = 5f;
+    public Vector3 offset = new Vector3(0f, 1.5f, -10f);
 
-    public Vector3 offset;      // Ajuste de posición (ej: 0, 2, -10)
+    void Start()
+    {
+        if (jugador == null)
+        {
+            jugador = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+    }
 
     void LateUpdate()
     {
         if (jugador == null) return;
 
-        Vector3 posicionDeseada = jugador.position + offset;
-        Vector3 posicionSuave = Vector3.Lerp(transform.position, posicionDeseada, suavizado * Time.deltaTime);
+        Vector3 destino = jugador.position + offset;
 
-        transform.position = posicionSuave;
+        transform.position = Vector3.Lerp(
+            transform.position,
+            destino,
+            suavizado * Time.deltaTime
+        );
     }
 }

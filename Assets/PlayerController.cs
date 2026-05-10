@@ -21,14 +21,14 @@ public class PlayerController : MonoBehaviour
     private bool muerto = false;
     private bool atacando = false;
 
-    // DASH
+   
     public float fuerzaDash = 12f;
     public float duracionDash = 0.2f;
     private bool haciendoDash = false;
 
-    // 💥 ATAQUE
+    
     public Transform puntoGolpe;
-    public float radioGolpe = 1.2f; // un poco más grande para evitar errores
+    public float radioGolpe = 1.2f; 
     public LayerMask capaEnemigo;
     public int daño = 1;
 
