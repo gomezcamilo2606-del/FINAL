@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class CamaraSeguir: MonoBehaviour
+public class CamaraSeguir : MonoBehaviour
 {
     public Transform jugador;
     public float suavizado = 5f;
-    public Vector3 offset = new Vector3(0f, 1.5f, -10f);
+    public Vector3 offset = new Vector3(0f, 0f, -10f);
 
     void Start()
     {

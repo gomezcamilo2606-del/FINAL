@@ -16,7 +16,7 @@ TagManager:
   - UI
   - suelo
   - Enemy
-  - 
+  - luces
   - 
   - 
   - 
@@ -43,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 129481357
+    locked: 0
+  - name: luces
+    uniqueID: 1156476357
     locked: 0
   m_RenderingLayers:
   - Default
