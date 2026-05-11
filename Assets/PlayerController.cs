@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float veloMov = 5f;
     public float fuerzaDeSalto = 7f;
-    public int vida = 8;
+    public int vida = 14;
 
     private float x;
     private Rigidbody2D rb;
