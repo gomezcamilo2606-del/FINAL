@@ -1,82 +1,93 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movimiento")]
     public float veloMov = 5f;
     public float fuerzaDeSalto = 7f;
+
+    [Header("Vida")]
     public int vida = 14;
+    public float tiempoInvencible = 1f;
+
+    [Header("Dash")]
+    public float fuerzaDash = 12f;
+    public float duracionDash = 0.2f;
+
+    [Header("Ataque")]
+    public Transform puntoGolpe;
+    public float radioGolpe = 1.2f;
+    public LayerMask capaEnemigo;
+    public int daño = 1;
 
     private float x;
     private Rigidbody2D rb;
-
-    public Animator animacos;
+    private Animator animacos;
 
     private int saltosMaximos = 2;
     private int saltosRestantes;
 
     private bool puedeRecibirDaño = true;
-    public float tiempoInvencible = 1f;
-
     private bool muerto = false;
     private bool atacando = false;
-
-   
-    public float fuerzaDash = 12f;
-    public float duracionDash = 0.2f;
     private bool haciendoDash = false;
-
-    
-    public Transform puntoGolpe;
-    public float radioGolpe = 1.2f; 
-    public LayerMask capaEnemigo;
-    public int daño = 1;
-
     private bool yaGolpeo = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animacos = GetComponent<Animator>(); // toma el animator automáticamente
         saltosRestantes = saltosMaximos;
     }
 
     void Update()
     {
-        if (muerto || atacando || haciendoDash) return;
+        if (muerto || atacando || haciendoDash)
+            return;
 
         x = Input.GetAxisRaw("Horizontal");
 
+        // Animación correr
         if (animacos != null)
             animacos.SetBool("estacorriendo", x != 0);
 
-        if (x < 0) transform.localScale = new Vector3(-1, 1, 1);
-        if (x > 0) transform.localScale = new Vector3(1, 1, 1);
+        // Girar personaje
+        if (x < 0)
+            transform.localScale = new Vector3(-1, 1, 1);
 
+        if (x > 0)
+            transform.localScale = new Vector3(1, 1, 1);
+
+        // Movimiento
         rb.linearVelocity = new Vector2(x * veloMov, rb.linearVelocity.y);
 
+        // Salto
         if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
             saltosRestantes--;
         }
 
-        if (Input.GetMouseButtonDown(0) && !atacando && !muerto)
+        // Ataque
+        if (Input.GetMouseButtonDown(0) && !atacando)
         {
             Atacar();
         }
 
+        // Dash
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             StartCoroutine(Dash());
         }
     }
 
-    System.Collections.IEnumerator Dash()
+    IEnumerator Dash()
     {
         haciendoDash = true;
 
         float direccion = transform.localScale.x;
-
         rb.linearVelocity = new Vector2(direccion * fuerzaDash, 0f);
 
         yield return new WaitForSeconds(duracionDash);
@@ -92,11 +103,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void RecibirDaño(int daño)
+    public void RecibirDaño(int dañoRecibido)
     {
-        if (!puedeRecibirDaño || muerto) return;
+        if (!puedeRecibirDaño || muerto)
+            return;
 
-        vida -= daño;
+        vida -= dañoRecibido;
 
         if (vida <= 0)
         {
@@ -115,7 +127,7 @@ public class PlayerController : MonoBehaviour
         if (animacos != null)
             animacos.SetTrigger("golpear");
 
-        Invoke("FinAtaque", 0.5f);
+        Invoke(nameof(FinAtaque), 0.5f);
     }
 
     void FinAtaque()
@@ -123,28 +135,32 @@ public class PlayerController : MonoBehaviour
         atacando = false;
     }
 
-    // 💥 DAÑO REAL
     public void HacerDaño()
     {
-        Debug.Log("GOLPEANDO");
+        if (yaGolpeo)
+            return;
 
-        if (yaGolpeo) return;
         yaGolpeo = true;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(puntoGolpe.position, radioGolpe);
+        if (puntoGolpe == null)
+        {
+            Debug.LogWarning("PuntoGolpe no asignado");
+            return;
+        }
+
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            puntoGolpe.position,
+            radioGolpe,
+            capaEnemigo
+        );
 
         foreach (Collider2D hit in hits)
         {
-            // Detecta por script
             EnemyController enemigo = hit.GetComponent<EnemyController>();
 
-            // O por tag (extra seguridad)
-            if (enemigo != null || hit.CompareTag("Enemy"))
+            if (enemigo != null)
             {
-                if (enemigo != null)
-                {
-                    enemigo.RecibirDaño(daño);
-                }
+                enemigo.RecibirDaño(daño);
             }
         }
     }
@@ -159,7 +175,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
 
-        Invoke("ReiniciarNivel", 1.5f);
+        Invoke(nameof(ReiniciarNivel), 1.5f);
     }
 
     void ReiniciarNivel()
@@ -167,10 +183,12 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    System.Collections.IEnumerator Invencibilidad()
+    IEnumerator Invencibilidad()
     {
         puedeRecibirDaño = false;
+
         yield return new WaitForSeconds(tiempoInvencible);
+
         puedeRecibirDaño = true;
     }
 

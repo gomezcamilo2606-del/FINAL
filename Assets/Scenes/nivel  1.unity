@@ -53814,7 +53814,6 @@ MonoBehaviour:
   veloMov: 5
   fuerzaDeSalto: 7
   vida: 8
-  animacos: {fileID: 0}
   tiempoInvencible: 1
   fuerzaDash: 12
   duracionDash: 0.2
