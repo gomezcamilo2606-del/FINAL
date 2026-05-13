@@ -53798,7 +53798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2fadb936665df41b6b9c9f61767bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vidas
-  rellenoBarraVida: {fileID: 1282958067}
+  rellenoBarraVida: {fileID: 0}
 --- !u!114 &444163899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53813,16 +53813,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   veloMov: 5
   fuerzaDeSalto: 7
+  saltosMaximos: 2
   vida: 8
   tiempoInvencible: 1
-  fuerzaDash: 12
-  duracionDash: 0.2
+  "da\xF1o": 1
   puntoGolpe: {fileID: 0}
   radioGolpe: 1.2
   capaEnemigo:
     serializedVersion: 2
     m_Bits: 0
-  "da\xF1o": 1
+  fuerzaDash: 12
+  duracionDash: 0.2
 --- !u!95 &444163900
 Animator:
   serializedVersion: 7
@@ -53913,7 +53914,7 @@ Transform:
   m_GameObject: {fileID: 444163895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.62581635, y: -0.67, z: 0}
+  m_LocalPosition: {x: -0.8, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -59628,6 +59629,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -59780,6 +59782,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62ae00b0f2774e446ad3b0ee3c98960b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxCamera
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68ba61b9c6e7b44297df3015ffca465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraShake
 --- !u!1 &539621636
 GameObject:
   m_ObjectHideFlags: 0
@@ -149287,7 +149301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2fadb936665df41b6b9c9f61767bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vidas
-  rellenoBarraVida: {fileID: 1282958067}
+  rellenoBarraVida: {fileID: 0}
 --- !u!114 &1630889392
 MonoBehaviour:
   m_ObjectHideFlags: 0

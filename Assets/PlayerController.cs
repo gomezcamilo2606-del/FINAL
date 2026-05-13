@@ -4,82 +4,77 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movimiento")]
     public float veloMov = 5f;
-    public float fuerzaDeSalto = 7f;
+    public float fuerzaDeSalto = 10f;
+    public int saltosMaximos = 2;
 
-    [Header("Vida")]
-    public int vida = 14;
+    public int vida = 100;
     public float tiempoInvencible = 1f;
 
-    [Header("Dash")]
-    public float fuerzaDash = 12f;
+    public int daño = 20;
+    public Transform puntoGolpe;
+    public float radioGolpe = 1f;
+    public LayerMask capaEnemigo;
+
+    public float fuerzaDash = 15f;
     public float duracionDash = 0.2f;
 
-    [Header("Ataque")]
-    public Transform puntoGolpe;
-    public float radioGolpe = 1.2f;
-    public LayerMask capaEnemigo;
-    public int daño = 1;
-
-    private float x;
     private Rigidbody2D rb;
     private Animator animacos;
 
-    private int saltosMaximos = 2;
+    private float x;
     private int saltosRestantes;
-
-    private bool puedeRecibirDaño = true;
-    private bool muerto = false;
     private bool atacando = false;
     private bool haciendoDash = false;
+    private bool muerto = false;
+    private bool puedeRecibirDaño = true;
     private bool yaGolpeo = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animacos = GetComponent<Animator>(); // toma el animator automáticamente
+        animacos = GetComponent<Animator>();
         saltosRestantes = saltosMaximos;
     }
 
     void Update()
     {
-        if (muerto || atacando || haciendoDash)
+        if (muerto || atacando)
             return;
 
-        x = Input.GetAxisRaw("Horizontal");
-
-        // Animación correr
-        if (animacos != null)
-            animacos.SetBool("estacorriendo", x != 0);
-
-        // Girar personaje
-        if (x < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-
-        if (x > 0)
-            transform.localScale = new Vector3(1, 1, 1);
-
-        // Movimiento
-        rb.linearVelocity = new Vector2(x * veloMov, rb.linearVelocity.y);
-
-        // Salto
-        if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
+        if (!haciendoDash)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
-            saltosRestantes--;
+            x = Input.GetAxisRaw("Horizontal");
+
+            if (animacos != null)
+                animacos.SetBool("estacorriendo", x != 0);
+
+            if (x < 0)
+                transform.localScale = new Vector3(-1, 1, 1);
+
+            if (x > 0)
+                transform.localScale = new Vector3(1, 1, 1);
+
+            rb.linearVelocity = new Vector2(x * veloMov, rb.linearVelocity.y);
+
+            if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
+                saltosRestantes--;
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                StartCoroutine(Dash());
+            }
         }
 
-        // Ataque
-        if (Input.GetMouseButtonDown(0) && !atacando)
+        if (animacos != null)
+            animacos.SetBool("estaSaltando", saltosRestantes < saltosMaximos);
+
+        if (Input.GetMouseButtonDown(0) && !atacando && !haciendoDash)
         {
             Atacar();
-        }
-
-        // Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            StartCoroutine(Dash());
         }
     }
 
@@ -87,11 +82,24 @@ public class PlayerController : MonoBehaviour
     {
         haciendoDash = true;
 
+        if (animacos != null)
+            animacos.SetTrigger("dash");
+
         float direccion = transform.localScale.x;
-        rb.linearVelocity = new Vector2(direccion * fuerzaDash, 0f);
+        float gravedadOriginal = rb.gravityScale;
 
-        yield return new WaitForSeconds(duracionDash);
+        rb.gravityScale = 0f;
 
+        float tiempo = 0f;
+
+        while (tiempo < duracionDash)
+        {
+            rb.linearVelocity = new Vector2(direccion * fuerzaDash, 0f);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+
+        rb.gravityScale = gravedadOriginal;
         haciendoDash = false;
     }
 
@@ -100,6 +108,9 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo"))
         {
             saltosRestantes = saltosMaximos;
+
+            if (animacos != null)
+                animacos.SetBool("estaSaltando", false);
         }
     }
 
@@ -109,6 +120,11 @@ public class PlayerController : MonoBehaviour
             return;
 
         vida -= dañoRecibido;
+
+        if (CamaraSeguir.instancia != null)
+        {
+            CamaraSeguir.instancia.Shake(0.15f, 0.15f);
+        }
 
         if (vida <= 0)
         {
