@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 20800c89ee8928345ac5767b324721ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1538390540666030361
+    second: Faroles_ 1_0
+  - first:
+      213: -3825229829172097907
+    second: Faroles_ 1_1
+  - first:
+      213: -1165590788061863293
+    second: Faroles_ 1_2
+  - first:
+      213: -5739927854516020792
+    second: Faroles_ 1_3
+  - first:
+      213: 3480928703350162674
+    second: Faroles_ 1_4
+  - first:
+      213: -1261409014586107309
+    second: Faroles_ 1_5
+  - first:
+      213: 7633083850146630996
+    second: Faroles_ 1_6
+  - first:
+      213: -674490549608437801
+    second: Faroles_ 1_7
+  - first:
+      213: 7565606564011693711
+    second: Faroles_ 1_8
+  - first:
+      213: 7540840484195139845
+    second: Faroles_ 1_9
+  - first:
+      213: -8186002510721059483
+    second: Faroles_ 1_10
+  - first:
+      213: 407803828244716332
+    second: Faroles_ 1_11
+  - first:
+      213: 8653412528668030017
+    second: Faroles_ 1_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Faroles_ 1_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1381
+        width: 397
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9194836cb06795510800000000000000
+      internalID: 1538390540666030361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2101
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c08ffbcbd0aeac0800000000000000
+      internalID: -3825229829172097907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2099
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ea149a5df2dfe0800000000000000
+      internalID: -1165590788061863293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1386
+        width: 397
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9d33b170ea750b0800000000000000
+      internalID: -5739927854516020792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_4
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2031
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4c5a3863ebe4030800000000000000
+      internalID: 3480928703350162674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2036
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a9e193f239e7ee0800000000000000
+      internalID: -1261409014586107309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1970
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dc2c4e1592ee960800000000000000
+      internalID: 7633083850146630996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1750
+        width: 51
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d72b323b6ab3a6f0800000000000000
+      internalID: -674490549608437801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1965
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86d74ee51f6ef860800000000000000
+      internalID: 7565606564011693711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_9
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1937
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5010650a77276a860800000000000000
+      internalID: 7540840484195139845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1942
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f30a761a756e80800000000000000
+      internalID: -8186002510721059483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 452
+        width: 391
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b1290db6fc8a500800000000000000
+      internalID: 407803828244716332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faroles_ 1_12
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 453
+        width: 391
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1443c2ad8d8171870800000000000000
+      internalID: 8653412528668030017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Faroles_ 1_0: 1538390540666030361
+      Faroles_ 1_1: -3825229829172097907
+      Faroles_ 1_10: -8186002510721059483
+      Faroles_ 1_11: 407803828244716332
+      Faroles_ 1_12: 8653412528668030017
+      Faroles_ 1_2: -1165590788061863293
+      Faroles_ 1_3: -5739927854516020792
+      Faroles_ 1_4: 3480928703350162674
+      Faroles_ 1_5: -1261409014586107309
+      Faroles_ 1_6: 7633083850146630996
+      Faroles_ 1_7: -674490549608437801
+      Faroles_ 1_8: 7565606564011693711
+      Faroles_ 1_9: 7540840484195139845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
