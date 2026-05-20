@@ -4,125 +4,82 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movimiento")]
     public float veloMov = 5f;
-    public float fuerzaDeSalto = 7f;
+    public float fuerzaDeSalto = 10f;
+    public int saltosMaximos = 2;
 
-    [Header("Vida")]
-    public int vida = 14;
+    public int vida = 100;
     public float tiempoInvencible = 1f;
 
-    [Header("Dash")]
-    public float fuerzaDash = 12f;
+    public float fuerzaDash = 15f;
     public float duracionDash = 0.2f;
 
-    [Header("Ataque")]
-    public Transform puntoGolpe;
-    public float radioGolpe = 1.2f;
-    public LayerMask capaEnemigo;
-    public int daño = 1;
+    [Header("Disparo")]
+    public GameObject proyectilPrefab;
+    public Transform puntoDisparo;
+    public float velocidadProyectil = 15f;
 
-    private float x;
     private Rigidbody2D rb;
     private Animator animacos;
 
-    private int saltosMaximos = 2;
+    private float x;
     private int saltosRestantes;
-
-    private bool puedeRecibirDaño = true;
-    private bool muerto = false;
     private bool atacando = false;
     private bool haciendoDash = false;
-    private bool yaGolpeo = false;
+    private bool muerto = false;
+    private bool puedeRecibirDaño = true;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animacos = GetComponent<Animator>(); // toma el animator automáticamente
+        animacos = GetComponent<Animator>();
         saltosRestantes = saltosMaximos;
     }
 
     void Update()
     {
-        if (muerto || atacando || haciendoDash)
+        if (muerto)
             return;
 
-        x = Input.GetAxisRaw("Horizontal");
-
-        // Animación correr
-        if (animacos != null)
-            animacos.SetBool("estacorriendo", x != 0);
-
-        // Girar personaje
-        if (x < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-
-        if (x > 0)
-            transform.localScale = new Vector3(1, 1, 1);
-
-        // Movimiento
-        rb.linearVelocity = new Vector2(x * veloMov, rb.linearVelocity.y);
-
-        // Salto
-        if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
+        if (!haciendoDash && !atacando)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
-            saltosRestantes--;
+            x = Input.GetAxisRaw("Horizontal");
+
+            if (animacos != null)
+                animacos.SetBool("estacorriendo", x != 0);
+
+            if (x < 0)
+                transform.localScale = new Vector3(-1, 1, 1);
+
+            if (x > 0)
+                transform.localScale = new Vector3(1, 1, 1);
+
+            rb.linearVelocity = new Vector2(x * veloMov, rb.linearVelocity.y);
+
+            if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
+                saltosRestantes--;
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                StartCoroutine(Dash());
+            }
         }
 
-        // Ataque
-        if (Input.GetMouseButtonDown(0) && !atacando)
+        if (animacos != null)
+            animacos.SetBool("estaSaltando", saltosRestantes < saltosMaximos);
+
+        if (Input.GetMouseButtonDown(0) && !atacando && !haciendoDash)
         {
             Atacar();
         }
-
-        // Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            StartCoroutine(Dash());
-        }
-    }
-
-    IEnumerator Dash()
-    {
-        haciendoDash = true;
-
-        float direccion = transform.localScale.x;
-        rb.linearVelocity = new Vector2(direccion * fuerzaDash, 0f);
-
-        yield return new WaitForSeconds(duracionDash);
-
-        haciendoDash = false;
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Suelo"))
-        {
-            saltosRestantes = saltosMaximos;
-        }
-    }
-
-    public void RecibirDaño(int dañoRecibido)
-    {
-        if (!puedeRecibirDaño || muerto)
-            return;
-
-        vida -= dañoRecibido;
-
-        if (vida <= 0)
-        {
-            Morir();
-            return;
-        }
-
-        StartCoroutine(Invencibilidad());
     }
 
     void Atacar()
     {
         atacando = true;
-        yaGolpeo = false;
 
         if (animacos != null)
             animacos.SetTrigger("golpear");
@@ -135,34 +92,88 @@ public class PlayerController : MonoBehaviour
         atacando = false;
     }
 
-    public void HacerDaño()
+    public void DispararProyectil()
     {
-        if (yaGolpeo)
-            return;
-
-        yaGolpeo = true;
-
-        if (puntoGolpe == null)
+        if (proyectilPrefab == null || puntoDisparo == null)
         {
-            Debug.LogWarning("PuntoGolpe no asignado");
+            Debug.LogWarning("Falta proyectil o punto de disparo");
             return;
         }
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            puntoGolpe.position,
-            radioGolpe,
-            capaEnemigo
+        GameObject bala = Instantiate(
+            proyectilPrefab,
+            puntoDisparo.position,
+            Quaternion.identity
         );
 
-        foreach (Collider2D hit in hits)
-        {
-            EnemyController enemigo = hit.GetComponent<EnemyController>();
+        Rigidbody2D rbProyectil = bala.GetComponent<Rigidbody2D>();
 
-            if (enemigo != null)
-            {
-                enemigo.RecibirDaño(daño);
-            }
+        if (rbProyectil != null)
+        {
+            float direccion = transform.localScale.x;
+
+            rbProyectil.linearVelocity = new Vector2(
+                direccion * velocidadProyectil,
+                0f
+            );
         }
+    }
+
+    IEnumerator Dash()
+    {
+        haciendoDash = true;
+
+        if (animacos != null)
+            animacos.SetTrigger("dash");
+
+        float direccion = transform.localScale.x;
+        float gravedadOriginal = rb.gravityScale;
+
+        rb.gravityScale = 0f;
+
+        float tiempo = 0f;
+
+        while (tiempo < duracionDash)
+        {
+            rb.linearVelocity = new Vector2(direccion * fuerzaDash, 0f);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+
+        rb.gravityScale = gravedadOriginal;
+        haciendoDash = false;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            saltosRestantes = saltosMaximos;
+
+            if (animacos != null)
+                animacos.SetBool("estaSaltando", false);
+        }
+    }
+
+    public void RecibirDaño(int dañoRecibido)
+    {
+        if (!puedeRecibirDaño || muerto)
+            return;
+
+        vida -= dañoRecibido;
+
+        if (CamaraSeguir.instancia != null)
+        {
+            CamaraSeguir.instancia.Shake(0.15f, 0.15f);
+        }
+
+        if (vida <= 0)
+        {
+            Morir();
+            return;
+        }
+
+        StartCoroutine(Invencibilidad());
     }
 
     void Morir()
@@ -190,14 +201,5 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(tiempoInvencible);
 
         puedeRecibirDaño = true;
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        if (puntoGolpe != null)
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(puntoGolpe.position, radioGolpe);
-        }
     }
 }

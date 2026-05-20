@@ -17,17 +17,14 @@ public class Vidas : MonoBehaviour
             playerController = player.GetComponent<PlayerController>();
             vidaMaxima = playerController.vida;
         }
-        else
-        {
-            Debug.LogError("No se encontró el Player");
-        }
     }
 
     void Update()
     {
-        if (playerController != null)
+        if (playerController != null && rellenoBarraVida != null)
         {
-            rellenoBarraVida.fillAmount = (float)playerController.vida / vidaMaxima;
+            rellenoBarraVida.fillAmount =
+                (float)playerController.vida / vidaMaxima;
         }
     }
 }

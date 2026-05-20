@@ -3,12 +3,12 @@ using UnityEngine;
 public class Cura : MonoBehaviour
 {
     public GameObject iconoCura;
-    public static bool tieneCura = false;
+    public static bool tieneCura;
 
     void Start()
     {
-        tieneCura = false;
-        iconoCura.SetActive(false);
+        if (iconoCura != null)
+            iconoCura.SetActive(tieneCura);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,7 +16,10 @@ public class Cura : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             tieneCura = true;
-            iconoCura.SetActive(true);
+
+            if (iconoCura != null)
+                iconoCura.SetActive(true);
+
             Destroy(gameObject);
         }
     }
