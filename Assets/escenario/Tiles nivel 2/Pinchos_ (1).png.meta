@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 869008be38e6ea140a924fcba9814a47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3660613623220381538
+    second: Pinchos_ (1)_0
+  - first:
+      213: 3331159264096503898
+    second: Pinchos_ (1)_1
+  - first:
+      213: -7837053877902330359
+    second: Pinchos_ (1)_2
+  - first:
+      213: 374835062320410518
+    second: Pinchos_ (1)_3
+  - first:
+      213: -2540474022336847397
+    second: Pinchos_ (1)_4
+  - first:
+      213: 6907752813791747843
+    second: Pinchos_ (1)_5
+  - first:
+      213: -5502813397885774688
+    second: Pinchos_ (1)_6
+  - first:
+      213: 8329463128626160632
+    second: Pinchos_ (1)_7
+  - first:
+      213: -7940588545002174047
+    second: Pinchos_ (1)_8
+  - first:
+      213: 7601930211008008932
+    second: Pinchos_ (1)_9
+  - first:
+      213: 3659313852465624893
+    second: Pinchos_ (1)_10
+  - first:
+      213: -5477436242048328436
+    second: Pinchos_ (1)_11
+  - first:
+      213: -4100528218781777084
+    second: Pinchos_ (1)_12
+  - first:
+      213: -6181965319634269745
+    second: Pinchos_ (1)_13
+  - first:
+      213: -4494416062430412339
+    second: Pinchos_ (1)_14
+  - first:
+      213: -7637437544117371180
+    second: Pinchos_ (1)_15
+  - first:
+      213: -5043877770234226348
+    second: Pinchos_ (1)_16
+  - first:
+      213: -8652709121471335065
+    second: Pinchos_ (1)_17
+  - first:
+      213: 9077554115585456226
+    second: Pinchos_ (1)_18
+  - first:
+      213: 1513623872008123467
+    second: Pinchos_ (1)_19
+  - first:
+      213: -8450575820014299798
+    second: Pinchos_ (1)_20
+  - first:
+      213: -216066374166805458
+    second: Pinchos_ (1)_21
+  - first:
+      213: -333943079222868369
+    second: Pinchos_ (1)_22
+  - first:
+      213: 2974253530973108588
+    second: Pinchos_ (1)_23
+  - first:
+      213: -5574938753725946642
+    second: Pinchos_ (1)_24
+  - first:
+      213: 6763793684846793809
+    second: Pinchos_ (1)_25
+  - first:
+      213: 6561140207768151159
+    second: Pinchos_ (1)_26
+  - first:
+      213: -7676822334571778165
+    second: Pinchos_ (1)_27
+  - first:
+      213: -4160043927817519522
+    second: Pinchos_ (1)_28
+  - first:
+      213: 8211191386388732676
+    second: Pinchos_ (1)_29
+  - first:
+      213: 148060434699046611
+    second: Pinchos_ (1)_30
+  - first:
+      213: -3968299676210552640
+    second: Pinchos_ (1)_31
+  - first:
+      213: 5658207041875324321
+    second: Pinchos_ (1)_32
+  - first:
+      213: 7458205079871170264
+    second: Pinchos_ (1)_33
+  - first:
+      213: -2556262378865753514
+    second: Pinchos_ (1)_34
+  - first:
+      213: -7914714660765238091
+    second: Pinchos_ (1)_35
+  - first:
+      213: 6909959576755846387
+    second: Pinchos_ (1)_36
+  - first:
+      213: 7794143974527677763
+    second: Pinchos_ (1)_37
+  - first:
+      213: 1894926306514075288
+    second: Pinchos_ (1)_38
+  - first:
+      213: 4302273633738326354
+    second: Pinchos_ (1)_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pinchos_ (1)_0
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1754
+        width: 212
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e985effed43e23dc0800000000000000
+      internalID: -3660613623220381538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1918
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5849b293b7aa3e20800000000000000
+      internalID: 3331159264096503898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1865
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906b80245013d3390800000000000000
+      internalID: -7837053877902330359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_3
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1862
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f28f2d08ea33500800000000000000
+      internalID: 374835062320410518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1895
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd12181365c6ebcd0800000000000000
+      internalID: -2540474022336847397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_5
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1882
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f1346d5944ddf50800000000000000
+      internalID: 6907752813791747843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1848
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a412c9ae5412a3b0800000000000000
+      internalID: -5502813397885774688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1866
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3e9778592389370800000000000000
+      internalID: 8329463128626160632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1839
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a90c931acc5dc190800000000000000
+      internalID: -7940588545002174047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_9
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1796
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2517a004b7f7960800000000000000
+      internalID: 7601930211008008932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_10
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1800
+        width: 103
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3731e99f8e78c230800000000000000
+      internalID: 3659313852465624893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1842
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ddbd032cc3cf3b0800000000000000
+      internalID: -5477436242048328436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1840
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4430c008f4ff717c0800000000000000
+      internalID: -4100528218781777084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1775
+        width: 22
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc94a659b4f353aa0800000000000000
+      internalID: -6181965319634269745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1786
+        width: 12
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc186065760a0a1c0800000000000000
+      internalID: -4494416062430412339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1816
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4def6acb40f520690800000000000000
+      internalID: -7637437544117371180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_16
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1817
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45913be34eb800ab0800000000000000
+      internalID: -5043877770234226348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_17
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1808
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7653be5e5e66be780800000000000000
+      internalID: -8652709121471335065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_18
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1793
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2683bd88f53f9fd70800000000000000
+      internalID: 9077554115585456226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_19
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1650
+        width: 95
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44789e54e8710510800000000000000
+      internalID: 1513623872008123467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_20
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1793
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65da84901689ba80800000000000000
+      internalID: -8450575820014299798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1794
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2481e707c0600df0800000000000000
+      internalID: -216066374166805458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1784
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6688bbe9889d5bf0800000000000000
+      internalID: -333943079222868369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_23
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1779
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c697a9104dba64920800000000000000
+      internalID: 2974253530973108588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1777
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee42b93adb6d1a2b0800000000000000
+      internalID: -5574938753725946642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1777
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154d25f2582dddd50800000000000000
+      internalID: 6763793684846793809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1731
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774ad8da14add0b50800000000000000
+      internalID: 6561140207768151159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_27
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1747
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f6010a2c2767590800000000000000
+      internalID: -7676822334571778165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_28
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1741
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e7a68a61e8446c0800000000000000
+      internalID: -4160043927817519522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_29
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1749
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b9278af0304f170800000000000000
+      internalID: 8211191386388732676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_30
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1749
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dec68f4e240e0200800000000000000
+      internalID: 148060434699046611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1749
+        width: 111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c02c2d2874cde8c0800000000000000
+      internalID: -3968299676210552640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1751
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ada79c735df58e40800000000000000
+      internalID: 5658207041875324321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_33
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1738
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d62cbf310ed08760800000000000000
+      internalID: 7458205079871170264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1739
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652030bf8e4568cd0800000000000000
+      internalID: -2556262378865753514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1162
+        width: 815
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcf28233f8492290800000000000000
+      internalID: -7914714660765238091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1176
+        width: 21
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc37d0ef9b15ef50800000000000000
+      internalID: 6909959576755846387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_37
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1071
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34539f156ac5a2c60800000000000000
+      internalID: 7794143974527677763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_38
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 190
+        width: 385
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e705f9f612c4a10800000000000000
+      internalID: 1894926306514075288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinchos_ (1)_39
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 156
+        width: 151
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2518081531fb4bb30800000000000000
+      internalID: 4302273633738326354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pinchos_ (1)_0: -3660613623220381538
+      Pinchos_ (1)_1: 3331159264096503898
+      Pinchos_ (1)_10: 3659313852465624893
+      Pinchos_ (1)_11: -5477436242048328436
+      Pinchos_ (1)_12: -4100528218781777084
+      Pinchos_ (1)_13: -6181965319634269745
+      Pinchos_ (1)_14: -4494416062430412339
+      Pinchos_ (1)_15: -7637437544117371180
+      Pinchos_ (1)_16: -5043877770234226348
+      Pinchos_ (1)_17: -8652709121471335065
+      Pinchos_ (1)_18: 9077554115585456226
+      Pinchos_ (1)_19: 1513623872008123467
+      Pinchos_ (1)_2: -7837053877902330359
+      Pinchos_ (1)_20: -8450575820014299798
+      Pinchos_ (1)_21: -216066374166805458
+      Pinchos_ (1)_22: -333943079222868369
+      Pinchos_ (1)_23: 2974253530973108588
+      Pinchos_ (1)_24: -5574938753725946642
+      Pinchos_ (1)_25: 6763793684846793809
+      Pinchos_ (1)_26: 6561140207768151159
+      Pinchos_ (1)_27: -7676822334571778165
+      Pinchos_ (1)_28: -4160043927817519522
+      Pinchos_ (1)_29: 8211191386388732676
+      Pinchos_ (1)_3: 374835062320410518
+      Pinchos_ (1)_30: 148060434699046611
+      Pinchos_ (1)_31: -3968299676210552640
+      Pinchos_ (1)_32: 5658207041875324321
+      Pinchos_ (1)_33: 7458205079871170264
+      Pinchos_ (1)_34: -2556262378865753514
+      Pinchos_ (1)_35: -7914714660765238091
+      Pinchos_ (1)_36: 6909959576755846387
+      Pinchos_ (1)_37: 7794143974527677763
+      Pinchos_ (1)_38: 1894926306514075288
+      Pinchos_ (1)_39: 4302273633738326354
+      Pinchos_ (1)_4: -2540474022336847397
+      Pinchos_ (1)_5: 6907752813791747843
+      Pinchos_ (1)_6: -5502813397885774688
+      Pinchos_ (1)_7: 8329463128626160632
+      Pinchos_ (1)_8: -7940588545002174047
+      Pinchos_ (1)_9: 7601930211008008932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
