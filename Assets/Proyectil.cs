@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Proyectil : MonoBehaviour
 {
-    public int daño = 20;
+    public int daño = 2;
     public float tiempoDeVida = 3f;
 
     void Start()

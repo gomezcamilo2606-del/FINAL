@@ -11,8 +11,9 @@ public class PlayerController : MonoBehaviour
     public int vida = 100;
     public float tiempoInvencible = 1f;
 
-    public float fuerzaDash = 15f;
-    public float duracionDash = 0.2f;
+    public float fuerzaDash = 21f;
+    public float duracionDash = 0.3f;
+    public float cooldownDash = 0.4f;
 
     [Header("Disparo")]
     public GameObject proyectilPrefab;
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
     private bool haciendoDash = false;
     private bool muerto = false;
     private bool puedeRecibirDaño = true;
+    private bool puedeDash = true;
 
     void Start()
     {
@@ -62,7 +64,7 @@ public class PlayerController : MonoBehaviour
                 saltosRestantes--;
             }
 
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift) && puedeDash)
             {
                 StartCoroutine(Dash());
             }
@@ -121,6 +123,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Dash()
     {
+        puedeDash = false;
         haciendoDash = true;
 
         if (animacos != null)
@@ -142,6 +145,10 @@ public class PlayerController : MonoBehaviour
 
         rb.gravityScale = gravedadOriginal;
         haciendoDash = false;
+
+        yield return new WaitForSeconds(cooldownDash);
+
+        puedeDash = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -180,13 +187,10 @@ public class PlayerController : MonoBehaviour
     {
         muerto = true;
 
-        if (animacos != null)
-            animacos.SetTrigger("morir");
-
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;
 
-        Invoke(nameof(ReiniciarNivel), 1.5f);
+        Invoke(nameof(ReiniciarNivel), 1f);
     }
 
     void ReiniciarNivel()

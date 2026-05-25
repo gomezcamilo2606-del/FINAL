@@ -7,7 +7,6 @@ public class cambiodepantalla : MonoBehaviour
 
     public void CambiarEscena()
     {
-        Time.timeScale = 1f; 
         SceneManager.LoadScene(numeroEscena);
     }
 }

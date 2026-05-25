@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     private Transform objetivo;
 
     [Header("Combate")]
-    public int vida = 3;
+    public int vida = 5;
     public int daño = 1;
 
     public float rangoDeteccion = 4f;
@@ -22,7 +22,11 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         objetivo = puntoB;
-        jugador = GameObject.FindGameObjectWithTag("Player").transform;
+
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObj != null)
+            jugador = playerObj.transform;
     }
 
     void Update()
@@ -47,7 +51,11 @@ public class EnemyController : MonoBehaviour
 
     void Patrullar()
     {
-        transform.position = Vector2.MoveTowards(transform.position, objetivo.position, velocidad * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            objetivo.position,
+            velocidad * Time.deltaTime
+        );
 
         if (Vector2.Distance(transform.position, objetivo.position) < 0.2f)
         {
@@ -58,7 +66,16 @@ public class EnemyController : MonoBehaviour
 
     void SeguirJugador()
     {
-        transform.position = Vector2.MoveTowards(transform.position, jugador.position, velocidad * Time.deltaTime);
+        Vector2 objetivoSuelo = new Vector2(
+            jugador.position.x,
+            transform.position.y
+        );
+
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            objetivoSuelo,
+            velocidad * Time.deltaTime
+        );
 
         if (jugador.position.x > transform.position.x)
             transform.localScale = new Vector3(1, 1, 1);

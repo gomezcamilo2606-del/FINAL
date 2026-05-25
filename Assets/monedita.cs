@@ -3,12 +3,18 @@ using TMPro;
 
 public class monedita : MonoBehaviour
 {
-    public TextMeshProUGUI puntuacionTexto;
     private static int puntuacion = 0;
+    private TextMeshProUGUI puntuacionTexto;
 
-    private void Start()
+    void Start()
     {
-        puntuacionTexto.text = puntuacion.ToString();
+        GameObject texto = GameObject.Find("TextoPuntuacion");
+
+        if (texto != null)
+        {
+            puntuacionTexto = texto.GetComponent<TextMeshProUGUI>();
+            puntuacionTexto.text = puntuacion.ToString();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,7 +22,12 @@ public class monedita : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             puntuacion++;
-            puntuacionTexto.text = puntuacion.ToString();
+
+            if (puntuacionTexto != null)
+            {
+                puntuacionTexto.text = puntuacion.ToString();
+            }
+
             Destroy(gameObject);
         }
     }
