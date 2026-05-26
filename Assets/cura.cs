@@ -7,8 +7,10 @@ public class Cura : MonoBehaviour
 
     void Start()
     {
+        tieneCura = false;
+
         if (iconoCura != null)
-            iconoCura.SetActive(tieneCura);
+            iconoCura.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
