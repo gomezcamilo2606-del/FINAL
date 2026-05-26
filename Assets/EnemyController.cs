@@ -100,6 +100,8 @@ public class EnemyController : MonoBehaviour
 
     public void RecibirDaño(int dañoRecibido)
     {
+        SFXManager.instancia.SonidoDañoEnemigo();
+
         vida -= dañoRecibido;
 
         Debug.Log("Vida enemigo: " + vida);

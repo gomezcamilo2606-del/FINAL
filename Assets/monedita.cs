@@ -28,6 +28,8 @@ public class monedita : MonoBehaviour
                 puntuacionTexto.text = puntuacion.ToString();
             }
 
+            SFXManager.instancia.SonidoMoneda();
+
             Destroy(gameObject);
         }
     }

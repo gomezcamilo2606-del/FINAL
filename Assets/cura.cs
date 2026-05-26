@@ -20,6 +20,8 @@ public class Cura : MonoBehaviour
             if (iconoCura != null)
                 iconoCura.SetActive(true);
 
+            SFXManager.instancia.SonidoCura();
+
             Destroy(gameObject);
         }
     }

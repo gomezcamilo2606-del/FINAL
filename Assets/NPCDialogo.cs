@@ -60,11 +60,15 @@ public class NPCDialogo : MonoBehaviour
         escribiendo = true;
         textoDialogo.text = "";
 
+        SFXManager.instancia.SonidoNPC();
+
         foreach (char letra in lineas[lineaActual])
         {
             textoDialogo.text += letra;
             yield return new WaitForSeconds(velocidadTexto);
         }
+
+        SFXManager.instancia.sfxSource.Stop();
 
         escribiendo = false;
     }
@@ -75,6 +79,9 @@ public class NPCDialogo : MonoBehaviour
             StopCoroutine(escribirCoroutine);
 
         textoDialogo.text = lineas[lineaActual];
+
+        SFXManager.instancia.sfxSource.Stop();
+
         escribiendo = false;
     }
 
@@ -96,6 +103,9 @@ public class NPCDialogo : MonoBehaviour
     {
         dialogoActivo = false;
         escribiendo = false;
+
+        SFXManager.instancia.sfxSource.Stop();
+
         panelDialogo.SetActive(false);
     }
 

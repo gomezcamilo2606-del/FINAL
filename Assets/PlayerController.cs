@@ -60,6 +60,8 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space) && saltosRestantes > 0)
             {
+                SFXManager.instancia.SonidoSalto();
+
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaDeSalto);
                 saltosRestantes--;
             }
@@ -102,6 +104,8 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        SFXManager.instancia.SonidoDisparo();
+
         GameObject bala = Instantiate(
             proyectilPrefab,
             puntoDisparo.position,
@@ -125,6 +129,8 @@ public class PlayerController : MonoBehaviour
     {
         puedeDash = false;
         haciendoDash = true;
+
+        SFXManager.instancia.SonidoDash();
 
         if (animacos != null)
             animacos.SetTrigger("dash");
@@ -166,6 +172,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!puedeRecibirDaño || muerto)
             return;
+
+        SFXManager.instancia.SonidoDañoJugador();
 
         vida -= dañoRecibido;
 

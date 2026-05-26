@@ -17,8 +17,17 @@ public class Proyectil : MonoBehaviour
         if (enemigo != null)
         {
             enemigo.RecibirDaño(daño);
+            Destroy(gameObject);
+            return;
         }
 
-        Destroy(gameObject);
+        FinalBoss boss = other.GetComponent<FinalBoss>();
+
+        if (boss != null)
+        {
+            boss.TakeDamage(daño);
+            Destroy(gameObject);
+            return;
+        }
     }
 }
